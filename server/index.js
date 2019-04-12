@@ -50,7 +50,7 @@ async function start() {
       });
     }).then((charge) => {
       // here enter logic after card was successfully charged
-      res.redirect('/charge')
+      res.redirect('/success')
     }).catch((err) => {
       // here enter logic after card was unsuccessfully charged
       res.redirect('/error')
